@@ -64,7 +64,7 @@ body {
   font-family: var(--font-family);
   color: var(--black);
   font-size: 16px;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
 @media (max-width: 991px) {
   body {
@@ -2024,4 +2024,13 @@ p {
 .footer-eleven .newsletter-form .sub-btn:hover {
   color: var(--white);
   background-color: var(--primary-dark);
+}
+
+.call-action .contact-form h2 {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.call-action .contact-form p {
+  color: var(--white);
 }
